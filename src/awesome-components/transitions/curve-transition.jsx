@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
+import { useEffect } from "react";
 
-function CurveTransition() {
+function CurveTransition(props) {
     return ( 
-        <div>
-            <section class="dark">
-                <h1>Nice Curves!</h1>
-                <p>A website is like a road. The more curves it has the more interesting it is.</p>
-            </section>
-        </div> 
+        <section class="blue section-transition">
+            {props.children}
+            <div class="curve"></div>
+        </section>
     );
 }
 

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "dummy-component": "git+https://github.com/recraftrelic/dummy-react-npm-module.git",
+    "prop-types": "^15.8.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^4.10.1",
