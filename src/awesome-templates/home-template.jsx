@@ -5,7 +5,7 @@ function Home(props) {
     return ( 
         <div>
             <Navbar/>
-                { props.children }
+            { props.children }
         </div>
     );
 }
