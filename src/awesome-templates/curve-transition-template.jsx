@@ -3,6 +3,8 @@ import CurveTransition from '../awesome-components/transitions/curve-transition'
 import BubbleTransition from '../awesome-components/transitions/bubble-transition';
 import WaveTransition from '../awesome-components/transitions/wave-transition';
 
+import StateTemplate from './state-template';
+
 function CurveTransitionTemplate() {
     return ( 
         <div class= "text-white">
@@ -13,8 +15,7 @@ function CurveTransitionTemplate() {
             </CurveTransition>
 
             <section class="black section-transition">
-                <h1>More Curves!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <StateTemplate/>
             </section>
 
             <BubbleTransition bblcolor="red">
