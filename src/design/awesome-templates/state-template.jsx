@@ -1,8 +1,8 @@
 import React from "react";
 
-import Clicker from "../management-components/clicker/Clicker";
-import AnotherClicker from "../management-components/clicker/Another-clicker";
-import Users from "../management-components/user/users";
+import Clicker from "../../state-management/management-components/clicker/Clicker";
+import AnotherClicker from "../../state-management/management-components/clicker/Another-clicker";
+import Users from "../../state-management/management-components/user/users";
 
 function StateTemplate() {
     return ( 

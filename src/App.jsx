@@ -1,8 +1,8 @@
 import React from 'react';
-import  Home  from './awesome-templates/home-template.jsx';
-import HomeFooter from './awesome-components/footers/footer-home.jsx';
-import MiniFooter from './awesome-components/footers/footer-mini.jsx';
-import CurveTransitionTemplate from './awesome-templates/curve-transition-template.jsx';
+import Home from './design/awesome-templates/home-template.jsx';
+import HomeFooter from './design/awesome-components/footers/footer-home.jsx';
+import MiniFooter from './design/awesome-components/footers/footer-mini.jsx';
+import CurveTransitionTemplate from './design/awesome-templates/curve-transition-template.jsx';
 
 import "./bootstrap.css";
 import "./curves.css";

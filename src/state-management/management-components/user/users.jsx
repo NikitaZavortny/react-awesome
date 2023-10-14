@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { addUserAction, removeUserAction } from "../../store/users-reducer";
+import { addUserAction, removeUserAction} from "../../store/users-reducer";
 import { fetchUsers } from "../AsyncActions/AddApiUsers";
 
 function Users() {
@@ -25,7 +25,7 @@ function Users() {
             <button className="btn btn-primary" onClick={() => FetchUsers()}>Fetch User</button>
             {users.length > 0 ?
                 <div>
-                    {users.map(user=>
+                    {users.map((user) =>
                         <div>
                             <h1>{user.name}    <button className="btn btn-danger" onClick={() => RemoveUser(user.id)}>Remove User</button></h1>
                         </div>
