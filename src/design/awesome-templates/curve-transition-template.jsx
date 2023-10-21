@@ -9,13 +9,14 @@ function CurveTransitionTemplate() {
     return ( 
         <div class= "text-white">
 
-            <CurveTransition upcolor="#dd3f31" lowcolor="#8495AE" bgcolor="red">
+            <CurveTransition upcolor="blue" lowcolor="#8495AE" bgcolor="red">
                 <h1>Curves!!!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </CurveTransition>
 
             <section class="black section-transition">
-                <StateTemplate/>
+                <h1>Just Black space!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </section>
 
             <BubbleTransition bblcolor="red">
