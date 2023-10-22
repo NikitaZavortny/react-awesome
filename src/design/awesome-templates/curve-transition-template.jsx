@@ -6,10 +6,10 @@ import WaveTransition from '../awesome-components/transitions/wave-transition';
 import StateTemplate from './state-template';
 
 function CurveTransitionTemplate() {
-    return ( 
-        <div class= "text-white">
+    return (
+        <div class="text-white">
 
-            <CurveTransition upcolor="blue" lowcolor="#8495AE" bgcolor="red">
+            <CurveTransition backcolor="blue">
                 <h1>Curves!!!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </CurveTransition>
@@ -19,16 +19,16 @@ function CurveTransitionTemplate() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </section>
 
-            <BubbleTransition bblcolor="red">
+            <BubbleTransition backcolor="red">
                 <h1>Bubble!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </BubbleTransition>
 
-            <WaveTransition>
+            <WaveTransition upcolor="red">
                 <h1>Wave!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </WaveTransition>
-        </div> 
+        </div>
     );
 }
 

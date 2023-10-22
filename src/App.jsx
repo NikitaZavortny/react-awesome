@@ -8,7 +8,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 import "./bootstrap.css";
-import "./curves.css";
+import "./curves.scss";
 import HomePage from './design/pages/home-page.jsx';
 import ReduxSaga from './design/pages/redux-saga.jsx';
 

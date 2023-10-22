@@ -3,9 +3,9 @@ import { useEffect } from "react";
 
 function CurveTransition(props) {
     return ( 
-        <section class={"blue section-transition"}  >
+        <section class={props.backcolor + " section-transition"}  >
             {props.children}
-            <div class="curve"></div>
+            <div class={"curve color-" + props.backcolor}></div>
         </section>
     );
 }
