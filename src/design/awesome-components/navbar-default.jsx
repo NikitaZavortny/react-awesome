@@ -12,10 +12,10 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarColor02">
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" href="/">Home</a>
+                                <a data-testid="home-link" class="nav-link active" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/redux">Redux-Saga</a>
+                                <a data-testid="redux-saga-link" class="nav-link" href="/redux">Redux-Saga</a>
                             </li>
                         </ul>
                     </div>
