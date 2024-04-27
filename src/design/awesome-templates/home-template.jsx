@@ -4,8 +4,10 @@ import Navbar from '../awesome-components/navbar-default.jsx';
 function Home(props) {
     return ( 
         <div>
-            <Navbar/>
-            { props.children }
+            <div className="text-white">
+                <Navbar />
+                {props.children}
+            </div>
         </div>
     );
 }

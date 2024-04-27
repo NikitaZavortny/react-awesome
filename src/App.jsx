@@ -11,6 +11,7 @@ import "./bootstrap.css";
 import "./curves.scss";
 import HomePage from './design/pages/home-page.jsx';
 import ReduxSaga from './design/pages/redux-saga.jsx';
+import LoginFormPage from './design/pages/login-page.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/redux" element={<ReduxSaga />} />
+          <Route path="/login" element={<LoginFormPage />} />
         </Routes>
       </BrowserRouter>
 

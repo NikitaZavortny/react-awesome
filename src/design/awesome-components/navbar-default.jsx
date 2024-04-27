@@ -18,6 +18,7 @@ function Navbar() {
                                 <a data-testid="redux-saga-link" class="nav-link" href="/redux">Redux-Saga</a>
                             </li>
                         </ul>
+                            <a data-testid="home-link" class="nav-link" href="/login">login</a>
                     </div>
                 </div>
             </nav>

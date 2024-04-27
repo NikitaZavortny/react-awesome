@@ -49,6 +49,9 @@
     &.color-gray {
         @include curvestyle(#8495AE, #0f0f10);
     }
+    &.color-green {
+            @include curvestyle(#3bbd17, #0f0f10);
+    }
 }
 
 @mixin bubbleafter($color) {
@@ -83,6 +86,12 @@
             @include bubbleafter(#8495AE);
         }
     }
+
+    &.color-green {
+        &::after {
+            @include bubbleafter(#3bbd17);
+        }
+    }
 }
 
 .red {
@@ -99,6 +108,9 @@
 
 .black {
     background-color: #0f0f10;
+}
+.green {
+    background-color: #3bbd17;
 }
 
 
