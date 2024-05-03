@@ -5,6 +5,7 @@ import createSagaMiddleware from "redux-saga";
 
 import { ClickReducer } from "./clicks-reducer";
 import { UserReducer } from "./users-reducer";
+import { TokenReducer } from "./token-reducer";
 import { clicksWatcher } from "../saga/clickSaga";
 
 const SagaMiddleware = createSagaMiddleware(createStore);
@@ -13,6 +14,7 @@ const SagaMiddleware = createSagaMiddleware(createStore);
 const RootReducer = combineReducers({
     clicks: ClickReducer,
     users: UserReducer,
+    token: TokenReducer
 });
 
 
