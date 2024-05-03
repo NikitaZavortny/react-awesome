@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { defState, setToken } from '../state-management/store/auth-reducer';
+import { defState, setToken } from '../state-management/store/auth-reducer.js';
 
 export const API_URL = `http://localhost:5000/api`
 

@@ -2,11 +2,12 @@ export const defState = {
     token : ""
 };
 
+const Set = "Set"
 
 //this is basic reducer
 export const TokenReducer = (state = defState, action) => {
     switch (action.type) {
-        case Add: return { ...state, token: action.payload }
+        case Set: return { ...state, token: action.payload }
         default: return state;
     }
 };
