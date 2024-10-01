@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MiniFooter() {
+function FooterMini() {
     return ( 
         <div>
             <footer class="footer">
@@ -13,4 +13,4 @@ function MiniFooter() {
     );
 }
 
-export default MiniFooter;
+export default FooterMini;
